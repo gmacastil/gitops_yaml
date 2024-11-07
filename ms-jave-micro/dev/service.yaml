@@ -9,5 +9,5 @@ spec:
     app: ms-jave-micro
   ports:
     - protocol: TCP
-      port: 8081
+      port: 9081
       targetPort: 8080

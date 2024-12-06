@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gitops_yaml
+  description: Repositorio para la gestión de configuraciones y despliegues de aplicaciones mediante GitOps utilizando archivos YAML
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: gmacastil/gitops_yaml
+    sonarqube.org/project-key: gitops_yaml
+  tags:
+    - yaml
+spec:
+  type: service
+  owner: gmacastil
+  lifecycle: production
+  system: dummy

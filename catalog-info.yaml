@@ -10,6 +10,8 @@ metadata:
   name: gitops_yaml
   tags:
   - yaml
+  - gitops
+  - backstage
 spec:
   lifecycle: production
   owner: gmacastil

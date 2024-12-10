@@ -5,8 +5,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: gmacastil/gitops_yaml
     sonarqube.org/project-key: gitops_yaml
-  description: "Repositorio para la gesti\xF3n de configuraciones y despliegues de\
-    \ aplicaciones mediante GitOps utilizando archivos YAML"
+  description: Repositorio para la gestión de configuraciones y despliegues de aplicaciones
+    mediante GitOps utilizando archivos YAML
   name: gitops_yaml
   tags:
   - yaml

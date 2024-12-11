@@ -16,22 +16,3 @@ spec:
   owner: gmacastil
   lifecycle: production
   system: discovery
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: gitops_yaml-api
-  description: Repositorio para la gestión de configuraciones y despliegues de aplicaciones mediante GitOps utilizando archivos YAML
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-  tags:
-    - yaml
-    - gitops
-    - backstage
-spec:
-  type: openapi
-  owner: gmacastil
-  lifecycle: production
-  system: discovery
-  definition: 
-    $text: /docs/openapi.yaml
